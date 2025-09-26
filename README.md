@@ -1,6 +1,4 @@
 # Todo App
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/hudaabdelgwad/Todo-app)
-
 This is a feature-rich Todo application built with React. It provides a clean and modern interface for managing your daily tasks. The app supports adding, deleting, filtering, and reordering tasks, and includes a theme switcher for light and dark modes. User data, including tasks and theme preference, is persisted in the browser's local storage.
 
 ## Features
