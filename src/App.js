@@ -66,7 +66,7 @@ function App() {
     <ToDoContext.Provider value={{ toDos, setToDos: setToDos }}>
       <ThemeProvider theme={theme}>
         <div className={`App !font-JosefinSans flex flex-col justify-center bg-lightList items-center w-full h-lvh ${dark?"!bg-dark":"!text-black"}`}>
-          <header className={`w-full ${dark?"bg-desktopDark":"bg-desktopLight "} h-[40vh] bg-cover bg-no-repeat absolute top-0 `}></header>
+          <header className={`w-full ${dark?"bg-mobileDark sm:bg-desktopDark":"bg-mobileLight sm:bg-desktopLight "} h-[40vh] bg-cover bg-no-repeat absolute top-0 `}></header>
           <Container maxWidth="sm" className="z-10 relative">
             <main className="max-h-[80vh] z-10 !w-full ">
               <Grid

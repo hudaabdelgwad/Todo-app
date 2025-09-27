@@ -12,6 +12,8 @@ module.exports = {
       backgroundImage: {
         desktopLight: "url('/src/images/bg-desktop-light.jpg')",
         desktopDark: "url('/src/images/bg-desktop-dark.jpg')",
+        mobileLight:"url('/src/images/bg-mobile-light.jpg')",
+        mobileDark:"url('/src/images/bg-mobile-dark.jpg')"
       },
       fontFamily: {
         JosefinSans: ["Josefin Sans", "sans-serif"],
